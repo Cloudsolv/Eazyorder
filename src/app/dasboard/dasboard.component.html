@@ -1,0 +1,10 @@
+<form class="example-form" [formGroup]="dashboardForm" (ngSubmit)="onSubmit()">
+
+ 
+  <div class="button-row" >
+    <button mat-raised-button color="primary" [disabled]="!dashboardForm.valid">Add</button>
+  </div>
+
+</form>
+
+<app-show-person-data></app-show-person-data>
